@@ -1,0 +1,10 @@
+[package]
+name = "sigmaos_nodejs_binary"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "sigmaos_nodejs_binary"
+path = "src/lib.rs"
