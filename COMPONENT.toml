@@ -3,7 +3,7 @@ name = "SigmaOS-nodejs-binary"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "nodejs-binary component"
+description = "Pre-built Node.js binary distribution with version management for SigmaOS"
 upstream = []
 
 [contract]
