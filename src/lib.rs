@@ -90,20 +90,20 @@ mod tests {
 }
 
 /// Backwards-compatible component handle (kept for existing callers/tests).
-#[derive(Debug, Default)]
-pub struct Component {{
+#[derive(Debug)]
+pub struct Component {
     name: &'static str,
-}}
+}
 
-impl Component {{
+impl Component {
     /// Create the component handle.
-    pub fn new() -> Self {{
-        Self {{ name: "SigmaOS Component" }}
-    }}
-}}
+    pub fn new() -> Self {
+        Self { name: "SigmaOS Component" }
+    }
+}
 
-impl Default for Component {{
-    fn default() -> Self {{
+impl Default for Component {
+    fn default() -> Self {
         Self::new()
-    }}
-}}
+    }
+}
